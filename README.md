@@ -2,6 +2,7 @@
 
 This project is a Full Stack Task manager built with ReactJS & LARAVEL
 
+![preview](https://github.com/OthmanSemlali/full-stack-task-manager/blob/main/task_manager.PNG)
 ## Features
 
 - Login & Register using jwt_token
@@ -72,7 +73,7 @@ Then Follow these steps to set up and run the project locally:
     composer install
     ```
 4. Update .env file
-    -   [You can use my Existing tables](https://github.com/OthmanSemlali/LARAVEL_CRUD/blob/main/laravel_crud.sql).
+    -   [You can use my Existing tables](https://github.com/OthmanSemlali/full-stack-task-manager/blob/main/task_manager.sql).
 
 5. Generate the application key:
     ```bash
