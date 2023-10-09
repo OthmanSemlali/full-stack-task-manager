@@ -36,8 +36,8 @@ git clone https://github.com/OthmanSemlali/full-stack-task-manager.git
 
 ### install front-end
 
-cd task_manager_front
-npm install
+ ```cd task_manager_front ```
+ ```npm install```
 
 
 Once the dependencies are installed, start the development server
