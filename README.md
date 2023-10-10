@@ -2,6 +2,11 @@
 
 This project is a Full Stack Task manager built with ReactJS & LARAVEL
 
+# Testing
+You can create a new account or logIn using these credentials:
+email: othman@gmail.com
+password:12345678
+
 ![preview](https://github.com/OthmanSemlali/full-stack-task-manager/blob/main/task_manager.PNG)
 ## Features
 
