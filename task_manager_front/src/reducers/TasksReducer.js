@@ -70,6 +70,7 @@ const TasksReducer = (state, action) => {
             ...state,
             add_task_is_loading: false,
             tasks: [...state.tasks, action.payload.task],
+            activeCount:state.activeCount+1,
         };
 
     case "ADD_TASK_ERROR":
