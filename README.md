@@ -72,20 +72,28 @@ Then Follow these steps to set up and run the project locally:
     ```bash
     composer install
     ```
-4. Update .env file
+
+4. Create a .env File::
+    ```bash
+    cp .env.example .env
+    ```
+5. Update .env file (db Connection etc..)
     -   [You can use my Existing tables](https://github.com/OthmanSemlali/full-stack-task-manager/blob/main/task_manager.sql).
 
-5. Generate the application key:
+6. Generate the application key:
     ```bash
     php artisan key:generate
     ```
-
-6. Run the database migrations
+7. Generate JWT Secret Key:
     ```bash
-    php artisan migrate
+    php artisan jwt:secret
+    ```
+8. Clear Configuration Cache::
+    ```bash
+    php artisan config:cache
     ```
 
-7.Start dev server
+9.Start dev server
     ```
     php artisan serve
     ```
